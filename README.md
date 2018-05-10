@@ -1,2 +1,2 @@
 # VictText
-El projecto VicText es un editor de texto desarrollado en Java, con la finalidad de acreditar la materia de POO impartida en la Universidad Icep por el Docente:     null     , Desarrollado por: Victor Larios (http://www.github.com/victxrlarixs)
+The VicText project is a text editor developed in Java, with the purpose of accrediting the subject of OOP taught at the Icep University by the Teacher: null, Developed by: Victor Larios (http://www.github.com/victxrlarixs)
