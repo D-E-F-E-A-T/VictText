@@ -172,4 +172,4 @@ public class VicText extends JFrame implements ActionListener, WindowListener {
 		VicText notp=new VicText();	
 	}
 			
-}
+} 
