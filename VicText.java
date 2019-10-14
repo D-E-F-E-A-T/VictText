@@ -68,12 +68,10 @@ public class VicText extends JFrame implements ActionListener, WindowListener {
 		JFileChooser jfc=new JFileChooser();
 		
 		if(e.getActionCommand().equals("New")){ 
-			//new
 			this.setTitle("Untitled.txt - VicText");
 			jta.setText("");
 			fnameContainer=null;
 		}else if(e.getActionCommand().equals("Abrir")){
-			//open
 			int ret=jfc.showDialog(null,"Abrir");
 			
 			if(ret == JFileChooser.APPROVE_OPTION)
@@ -87,7 +85,6 @@ public class VicText extends JFrame implements ActionListener, WindowListener {
 			}
 			
 		}else if(e.getActionCommand().equals("Guardar")){
-			//save
 			if(fnameContainer != null){
 				jfc.setCurrentDirectory(fnameContainer);		
 				jfc.setSelectedFile(fnameContainer);
@@ -168,8 +165,8 @@ public class VicText extends JFrame implements ActionListener, WindowListener {
 		System.exit(0);
 	}
 	
-	public static void main (String[] args) {
-		VicText notp=new VicText();	
+	public static void main (String[] args) { 
+	VicText notp=new VicText();	
 	}
 			
 } 
